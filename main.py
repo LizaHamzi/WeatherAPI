@@ -1,17 +1,15 @@
 # external_api/main.py
 from fastapi import FastAPI
 from datetime import datetime
-from dotenv import load_dotenv
 import requests
 import uvicorn
-load_dotenv()
 
 app = FastAPI()
 
 # You can use an actual weather API (like OpenWeatherMap) for real weather data.
 # For the purpose of this example, we'll simulate a weather response.
 
-CITY = 'Alger'
+CITY = 'Ouadhia'
 API_KEY = '4a48e3ce448659890c354b5c8605231a'  # Replace with your real API key
 
 def get_weather():
