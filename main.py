@@ -10,7 +10,7 @@ app = FastAPI()
 # For the purpose of this example, we'll simulate a weather response.
 
 CITY = 'Ouadhia'
-API_KEY = '4a48e3ce448659890c354b5c8605231a'  # Replace with your real API key
+API_KEY = '133e9074a7827085b3445e655203fc80'  # Replace with your real API key
 
 def get_weather():
     # Example weather API endpoint
